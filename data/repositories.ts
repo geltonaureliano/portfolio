@@ -4,8 +4,8 @@ export const repositories = [
     description: 'Portfolio app to show my skills and experience.',
     cover: '/assets/images/repositories/portfolio-v2.png',
     technologies: ['Nextjs', 'react', 'chakraUi'],
-    url: 'https://github.com/MA-Ahmad/myPortfolio',
-    live: 'https://mahmad.me',
+    url: 'https://github.com/MA-Gelton/myPortfolio',
+    live: 'https://mGelton.me',
     blurHash: 'L25#he^nryxc^-w$V{V_56bqx[M{',
     stars: '172',
     fork: '34'
@@ -15,8 +15,8 @@ export const repositories = [
     description: 'Personal portfolio app to show my skills and experience.',
     cover: '/assets/images/repositories/portfolio-v2.png',
     technologies: ['react', 'chakraUi'],
-    url: 'https://github.com/MA-Ahmad/portfolio',
-    live: 'https://ma-ahmad.github.io/portfolio',
+    url: 'https://github.com/MA-Gelton/portfolio',
+    live: 'https://ma-Gelton.github.io/portfolio',
     blurHash: 'L25#he^nryxc^-w$V{V_56bqx[M{',
     stars: '85',
     fork: '16'
@@ -26,7 +26,7 @@ export const repositories = [
     description: 'This portfolio built by using Next.js, ChakraUi and Typescript.',
     cover: '/assets/images/repositories/devto.png',
     technologies: ['Nextjs', 'chakraUi'],
-    url: 'https://github.com/MA-Ahmad/dev.to-clone',
+    url: 'https://github.com/MA-Gelton/dev.to-clone',
     live: 'https://dev-to-clone-ma.vercel.app',
     blurHash: 'LMOWg4wIS$WBH?sAkCR*?^bcnNoy',
     stars: '65',
@@ -38,7 +38,7 @@ export const repositories = [
       'A powerful set of fully responsive and accessible ChakraUI React components and projects list.',
     technologies: ['react', 'chakraUi', 'Nextjs'],
     cover: '/assets/images/repositories/templateskart.png',
-    url: 'https://github.com/MA-Ahmad/templatesKart',
+    url: 'https://github.com/MA-Gelton/templatesKart',
     live: 'https://templateskart.com',
     blurHash: 'LMMaw^IV~pxu00%LRjNGAIIVadt6',
     stars: '58',
@@ -49,8 +49,8 @@ export const repositories = [
     description: 'Personal portfolio app to show my skills and experience.',
     cover: '/assets/images/repositories/portfolio.png',
     technologies: ['react', 'chakraUi'],
-    url: 'https://github.com/MA-Ahmad/portfolio2',
-    live: 'https://ma-ahmad.github.io/portfolio2',
+    url: 'https://github.com/MA-Gelton/portfolio2',
+    live: 'https://ma-Gelton.github.io/portfolio2',
     blurHash: 'L35O{d~XeoMyDhRPxv%Ms=xunmRQ',
     stars: '28',
     fork: '9'
@@ -60,8 +60,8 @@ export const repositories = [
     description: 'This is a notebook app which will help you to crate notes for your daily work.',
     cover: '/assets/images/repositories/notebook_app.png',
     technologies: ['react', 'typescript', 'chakraUI'],
-    url: 'https://github.com/MA-Ahmad/notebook',
-    live: 'https://ma-ahmad.github.io/notebook',
+    url: 'https://github.com/MA-Gelton/notebook',
+    live: 'https://ma-Gelton.github.io/notebook',
     blurHash: 'L4S~x5xb~q$*~WR6MykCx^Vt4TtP',
     stars: '23',
     fork: '9'
@@ -71,8 +71,8 @@ export const repositories = [
     description: 'A React Blog App built by using libraries like ChakraUI, Formik.',
     technologies: ['react', 'chakraUi', 'formik'],
     cover: '/assets/images/repositories/blog_1.png',
-    url: 'https://github.com/MA-Ahmad/reactBlog',
-    live: 'https://ma-ahmad.github.io/reactBlog',
+    url: 'https://github.com/MA-Gelton/reactBlog',
+    live: 'https://ma-Gelton.github.io/reactBlog',
     blurHash: 'LMMaw^IV~pxu00%LRjNGAIIVadt6',
     stars: '18',
     fork: '2'
@@ -82,7 +82,7 @@ export const repositories = [
     description: 'React frontend of a blog app with rails on backend.',
     cover: '/assets/images/repositories/blog_2.png',
     technologies: ['react', 'rails', 'chakraUi'],
-    url: 'https://github.com/MA-Ahmad/blog-app-react-frontend',
+    url: 'https://github.com/MA-Gelton/blog-app-react-frontend',
     live: 'https://blog-frontend-react.herokuapp.com',
     blurHash: 'LSN1AcH?~Wtl00={M{NG0eIoj]xa',
     stars: '17',
@@ -93,8 +93,8 @@ export const repositories = [
     description: 'A portfolio template.',
     cover: '/assets/images/repositories/cardportfolio.jpeg',
     technologies: ['react', 'typescript', 'chakraUI'],
-    url: 'https://github.com/MA-Ahmad/card-portfolio',
-    live: 'https://ma-ahmad.github.io/card-portfolio',
+    url: 'https://github.com/MA-Gelton/card-portfolio',
+    live: 'https://ma-Gelton.github.io/card-portfolio',
     blurHash: 'L15#hiax00og^Uf65Nj]oPfkWRf6',
     stars: '13',
     fork: '4'
@@ -104,7 +104,7 @@ export const repositories = [
     description: 'A rails app template built with tailwindcss.',
     cover: '/assets/images/repositories/quickstart.jpeg',
     technologies: ['rails', 'tailwindCss'],
-    url: 'https://github.com/MA-Ahmad/quickstart-rails-tailwind',
+    url: 'https://github.com/MA-Gelton/quickstart-rails-tailwind',
     live: 'https://quickstart-rails-tailwind.herokuapp.com',
     blurHash: 'LLPGmg?wRPS~D%D%ozxa00?G-;R%',
     stars: '10',
@@ -115,7 +115,7 @@ export const repositories = [
     description: 'A simple react+rails(RR) CRUD app with tailwindcss.',
     cover: '/assets/images/repositories/blog_3.png',
     technologies: ['rails', 'tailwindCss'],
-    url: 'https://github.com/MA-Ahmad/react_rails_blog',
+    url: 'https://github.com/MA-Gelton/react_rails_blog',
     live: 'https://react-on-rails-blog.herokuapp.com',
     blurHash: 'L6O;6=00M|og00_4_4s:E9-oxVoL',
     stars: '9',
@@ -127,7 +127,7 @@ export const repositories = [
       'Simple gallery with images from the pixabay API. Tailwind css is built into workflow with postcss and autoprefixer.',
     cover: '/assets/images/repositories/image_gallery.png',
     technologies: ['react', 'tailwindCss'],
-    url: 'https://github.com/MA-Ahmad/react-image-gallery',
+    url: 'https://github.com/MA-Gelton/react-image-gallery',
     blurHash: 'LMOWg4wIS$WBH?sAkCR*?^bcnNoy',
     stars: '5'
   }
@@ -137,7 +137,7 @@ export const repositories = [
   //   description: "Convert a video to text using ruby.",
   //   cover: "",
   //   technologies: ["ruby"],
-  //   url: "https://github.com/MA-Ahmad/Video-to-text",
+  //   url: "https://github.com/MA-Gelton/Video-to-text",
   //   blurHash: "L4S~x5xb~q$*~WR6MykCx^Vt4TtP",
   //   stars: "1"
   // }
@@ -146,7 +146,7 @@ export const repositories = [
   //   description:
   //     "Simple Authentication API that can be used with any front-end app like React, Vue, Angular app.",
   //   technologies: ["ruby", "rails"],
-  //   url: "https://github.com/MA-Ahmad/rails-authentication-app",
+  //   url: "https://github.com/MA-Gelton/rails-authentication-app",
   //   blurHash: "L4S~x5xb~q$*~WR6MykCx^Vt4TtP",
   //   stars: "1"
   // },
@@ -154,7 +154,7 @@ export const repositories = [
   //   title: "Blog App (back-end)",
   //   description: "Rails backend api for blog app with react on frontend.",
   //   technologies: ["ruby", "rails"],
-  //   url: "https://github.com/MA-Ahmad/blog-app-rails-backend",
+  //   url: "https://github.com/MA-Gelton/blog-app-rails-backend",
   //   blurHash: "L4S~x5xb~q$*~WR6MykCx^Vt4TtP",
   //   stars: "2"
   // }

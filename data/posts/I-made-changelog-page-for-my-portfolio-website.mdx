@@ -13,12 +13,12 @@ In my previous post, I mentioned that I'll create changelog page for my portfoli
 <br />
 <br />
 
-#### Page link: [ma-ahmad/changelog](https://mahmad.me/changelog)
+#### Page link: [ma-Gelton/changelog](https://mGelton.me/changelog)
 
-#### Github repo: [https://github.com/MA-Ahmad/myPortfolio](https://github.com/MA-Ahmad/myPortfolio)
+#### Github repo: [https://github.com/MA-Gelton/myPortfolio](https://github.com/MA-Gelton/myPortfolio)
 
-<br />I used [Github Api](https://api.github.com) to fetch PR's of my portfolio
-website. You can play with Github Api according to your requirements.
+<br />I used [Github Api](https://api.github.com) to fetch PR's of my portfolio website. You can
+play with Github Api according to your requirements.
 
 ### <u>Packages:</u>
 
@@ -29,28 +29,27 @@ website. You can play with Github Api according to your requirements.
 > **Note:** I used above mentioned packages for mdx content processing.
 
 <br />
-Here is a chunk of code where I'm processing mdx content after fetching PR's list
-of my portfolio website.
+Here is a chunk of code where I'm processing mdx content after fetching PR's list of my portfolio website.
 
 ```ts
 //Imports
-import remark from 'remark'
-import html from 'remark-html'
+import remark from 'remark';
+import html from 'remark-html';
 
 //Component code
-const [prDataState, setPrDataState] = useState(null)
+const [prDataState, setPrDataState] = useState(null);
 const processPrBody = async () => {
   await prData?.map(async (obj) => {
     if (obj.body) {
-      const htmlBody = await remark().use(html).process(obj.body)
-      obj['body_html'] = String(htmlBody)
+      const htmlBody = await remark().use(html).process(obj.body);
+      obj['body_html'] = String(htmlBody);
     }
-  })
-  setPrDataState(prData)
-}
+  });
+  setPrDataState(prData);
+};
 ```
 
-[Complete File code](https://github.com/MA-Ahmad/myPortfolio/blob/main/pages/changelog.tsx)
+[Complete File code](https://github.com/MA-Gelton/myPortfolio/blob/main/pages/changelog.tsx)
 
 ### Page Image
 

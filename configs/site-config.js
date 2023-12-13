@@ -1,51 +1,45 @@
-import {
-  FaGithub,
-  FaDev,
-  FaLinkedin,
-  FaQuora,
-  FaTwitter
-} from "react-icons/fa";
-import { FiMail } from "react-icons/fi";
+import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FiMail } from 'react-icons/fi';
 
 const siteConfig = {
-  copyright: `Copyright © ${new Date().getFullYear()} Muhammad Ahmad. All Rights Reserved.`,
+  copyright: `Copyright © ${new Date().getFullYear()} Gelton Aureliano. All Rights Reserved.`,
   author: {
-    name: "Muhammad Ahmad",
+    name: 'Gelton Aureliano',
     accounts: [
       {
-        url: "https://github.com/MA-Ahmad",
-        label: "Github Account",
-        type: "gray",
+        url: 'https://github.com/geltonaureliano',
+        label: 'Github Account',
+        type: 'gray',
         icon: <FaGithub />
       },
       {
-        url: "https://twitter.com/muhammad_ahmaad",
-        label: "Twitter Account",
-        type: "twitter",
-        icon: <FaTwitter />
+        url: 'https://instagram.com/gelt0n',
+        label: 'Instagram Account',
+        type: 'instagram',
+        icon: <FaInstagram />
       },
+      // {
+      //   url: 'https://twitter.com/',
+      //   label: 'Twitter Account',
+      //   type: 'twitter',
+      //   icon: <FaTwitter />
+      // },
       {
-        url: "https://dev.to/m_ahmad",
-        label: "Dev Account",
-        type: "gray",
-        icon: <FaDev />
-      },
-      {
-        url: "https://linkedin.com/in/muhammad-ahmad20",
-        label: "LinkedIn Account",
-        type: "linkedin",
+        url: 'https://linkedin.com/in/geltonaureliano',
+        label: 'LinkedIn Account',
+        type: 'linkedin',
         icon: <FaLinkedin />
       },
+      // {
+      //   url: 'https://www.quora.com/profile/geltonaureliano',
+      //   label: 'Quora Account',
+      //   type: 'red',
+      //   icon: <FaQuora />
+      // },
       {
-        url: "https://www.quora.com/profile/Muhammad-Ahmad-66",
-        label: "Quora Account",
-        type: "red",
-        icon: <FaQuora />
-      },
-      {
-        url: "mailto:muhammad.ahmad8043@gmail.com",
-        label: "Mail ahmad",
-        type: "gray",
+        url: 'mailto:geltonaureliano@hotmail.com',
+        label: 'Mail',
+        type: 'gray',
         icon: <FiMail />
       }
     ]

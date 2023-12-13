@@ -12,7 +12,6 @@
     "@chakra-ui/react": "^2.8.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "@prisma/client": "^5.1.0",
     "@types/prismjs": "^1.26.0",
     "@vercel/analytics": "^1.0.1",
     "axios": "^1.4.0",
@@ -50,7 +49,6 @@
     "eslint": "7.28.0",
     "eslint-config-next": "^13.4.12",
     "prettier": "^3.0.0",
-    "prisma": "^5.1.0",
     "typescript": "^5.1.6"
   }
 }

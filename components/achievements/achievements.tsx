@@ -1,56 +1,40 @@
-import * as React from 'react'
-import {
-  FiPackage,
-  FiHome,
-  FiEdit2,
-  FiUsers,
-  FiBarChart2,
-} from 'react-icons/fi'
-import { FaTools } from 'react-icons/fa'
-import { VStack, Heading, Box, Link, LinkProps } from '@chakra-ui/react'
-import { TimelineItem } from './Timeline'
-import { PageSlideFade } from 'components/shared/animations/page-transitions'
-import Header from 'components/shared/header'
-import NextLink from 'next/link'
-import { useLinkColor } from 'components/theme'
+import * as React from 'react';
+import { FiPackage, FiHome, FiEdit2, FiUsers, FiBarChart2 } from 'react-icons/fi';
+import { FaTools } from 'react-icons/fa';
+import { VStack, Heading, Box, Link, LinkProps } from '@chakra-ui/react';
+import { TimelineItem } from './Timeline';
+import { PageSlideFade } from 'components/shared/animations/page-transitions';
+import Header from 'components/shared/header';
+import NextLink from 'next/link';
+import { useLinkColor } from 'components/theme';
 
 interface ExternalLinkProps extends LinkProps {
-  url: string
-  linkProps?: LinkProps
-  text: string
+  url: string;
+  linkProps?: LinkProps;
+  text: string;
 }
 
-const ExternalLink: React.FC<ExternalLinkProps> = ({
-  url,
-  linkProps,
-  text,
-  ...props
-}) => {
+const ExternalLink: React.FC<ExternalLinkProps> = ({ url, linkProps, text, ...props }) => {
   return (
     <NextLink href={url} passHref>
       <Link {...linkProps} {...props}>
         {text}
       </Link>
     </NextLink>
-  )
-}
+  );
+};
 
-const InternalLink: React.FC<ExternalLinkProps> = ({
-  url,
-  linkProps,
-  text,
-  ...props
-}) => {
+const InternalLink: React.FC<ExternalLinkProps> = ({ url, linkProps, text, ...props }) => {
   return (
     <NextLink href={url} passHref>
       <Link {...linkProps} {...props}>
         {text}
       </Link>
     </NextLink>
-  )
-}
+  );
+};
 const Achievements = () => {
-  const linkColor = useLinkColor()
+  const linkColor = useLinkColor();
 
   return (
     <PageSlideFade>
@@ -98,17 +82,16 @@ const Achievements = () => {
               Collected 34k+ posts views and 1.5k+ total reactions on{' '}
               <ExternalLink
                 color={linkColor}
-                url="https://dev.to/m_ahmad"
+                url="https://dev.to/m_Gelton"
                 text={'Dev.to'}
                 target="_blank"
               />
             </TimelineItem>
             <TimelineItem icon={FiHome} skipTrail>
-              Rebuilt my portfolio website with React, ChakraUI and
-              Framer-motion,{' '}
+              Rebuilt my portfolio website with React, ChakraUI and Framer-motion,{' '}
               <ExternalLink
                 color={linkColor}
-                url="https://github.com/MA-Ahmad/myPortfolio"
+                url="https://github.com/MA-Gelton/myPortfolio"
                 text={'source on Github'}
                 target="_blank"
               />
@@ -126,7 +109,7 @@ const Achievements = () => {
               Published or contributed to{' '}
               <ExternalLink
                 color={linkColor}
-                url="https://github.com/MA-Ahmad?tab=repositories"
+                url="https://github.com/MA-Gelton?tab=repositories"
                 text={'32 open-source repositories'}
                 target="_blank"
               />
@@ -135,7 +118,7 @@ const Achievements = () => {
               Collected 650+ post views and 15+ total reactions on{' '}
               <ExternalLink
                 color={linkColor}
-                url="https://dev.to/m_ahmad"
+                url="https://dev.to/m_Gelton"
                 text={'Dev.to'}
                 target="_blank"
               />
@@ -144,7 +127,7 @@ const Achievements = () => {
               Built my portfolio website with React and ChakraUI,{' '}
               <ExternalLink
                 color={linkColor}
-                url="https://github.com/MA-Ahmad/portfolio2"
+                url="https://github.com/MA-Gelton/portfolio2"
                 text={'source on Github'}
                 target="_blank"
               />
@@ -154,7 +137,7 @@ const Achievements = () => {
         </Box>
       </VStack>
     </PageSlideFade>
-  )
-}
+  );
+};
 
-export default Achievements
+export default Achievements;

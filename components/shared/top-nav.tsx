@@ -31,15 +31,11 @@ import { AccentPicker } from 'components/theme/Accent';
 import { useLinkColor } from 'components/theme';
 import { MotionBox } from 'components/shared/animations/motion';
 
-const webLinks = [
-  { name: 'About', path: '/about' },
-  { name: 'Blog', path: '/blog' }
-];
+const webLinks = [{ name: 'About', path: '/about' }];
 
 const mobileLinks = [
   { name: 'Projects', path: '/projects' },
   { name: 'Open Source', path: '/open-source' },
-  { name: 'Blog', path: '/blog' },
   { name: 'Changelog', path: '/changelog' }
 ];
 
@@ -48,8 +44,8 @@ const dropdownLinks = [
   { name: 'Tech Stack', path: '/tech-stack' },
   { name: 'Open Source', path: '/open-source' },
   { name: 'Achievements', path: '/achievements' },
-  { name: 'Changelog', path: '/changelog' }
-  // { name: "Developer Story", path: "/developer-story" }
+  { name: 'Changelog', path: '/changelog' },
+  { name: 'Developer Story', path: '/developer-story' }
 ];
 
 interface NavLinkProps {

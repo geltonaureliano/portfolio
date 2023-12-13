@@ -22,7 +22,7 @@ export const projectsList = [
     imageLight: '/assets/images/projects/cover/templateskart.png',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
     site: 'https://templateskart.com',
-    gitHub: 'https://github.com/MA-Ahmad/templatesKart',
+    gitHub: 'https://github.com/MA-Gelton/templatesKart',
     description:
       'TemplatesKart provides the best Chakra UI templates. Production-ready hand crafted Projects and Components built on top of ChakraUI.',
     techStack: ['React', 'Nextjs', 'ChakraUI']
